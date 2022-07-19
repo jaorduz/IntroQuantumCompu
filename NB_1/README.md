@@ -4,6 +4,7 @@
 [![CC License][license-badge]][license]
 [![QC](https://img.shields.io/badge/downloads-QC-green)](https://github.com/jaorduz/IntroQuantumCompu)
 [![Github](https://img.shields.io/badge/jaorduz-repos-blue)](https://github.com/jaorduz/)
+![Follow @jaorduc](https://img.shields.io/twitter/follow/jaorduc?label=follow&logo=twitter&logoColor=lkj&style=plastic)
 
 This repository contains information about Introduction to Quantum Computing course, in particular, I share QC material, I hope you find useful for your careeers.
 
