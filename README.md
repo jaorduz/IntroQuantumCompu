@@ -2,7 +2,7 @@
 [license-badge]: https://img.shields.io/badge/License-CC-orange
 [license]: https://creativecommons.org/licenses/by-nc-sa/3.0/deed.en
 [![CC License][license-badge]][license]
-[![IQC](https://img.shields.io/badge/downloads-QC-green)](https://github.com/jaorduz/IntroQuantumCompu)
+[![QC](https://img.shields.io/badge/downloads-QC-green)](https://github.com/jaorduz/IntroQuantumCompu)
 [![Github](https://img.shields.io/badge/jaorduz-repos-blue)](https://github.com/jaorduz/)
 
 This repository contains information about NLP course, in particular, I share QC material, I hope you find useful for your careeers.
