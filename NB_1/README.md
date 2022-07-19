@@ -23,16 +23,16 @@ I. Clone this repo. Don't forget to cite, and click star and follow.
 
 II. Check every NB: run it, and do the exercise section.
 
-1. [[NB Qiskit]](#/NB_1/QC0_1_Qiskit.ipynb)
-2. [[NB Qiskit]](#/blob/main/NB_1/QC0_1_Qiskit.ipynb)
-3. [[NB Qiskit]](#QC0_3_Qiskit.ipynb)
-4. [[NB Qiskit]](#QC0_4_Qiskit.ipynb)
-5. [[NB QuTip]](#QC0_5_QuTiP.ipynb)
-6. [[NB PennyLane]](#QC0_6_PennyLane.ipynb)
+1. [[QC0_1_Qiskit.ipynb]](#/NB_1/QC0_1_Qiskit.ipynb)
+2. [[QC0_2_Qiskit.ipynb]](#/NB_1/QC0_2_Qiskit.ipynb)
+3. [[QC0_3_Qiskit.ipynb]](#/NB_1/QC0_3_Qiskit.ipynb)
+4. [[QC0_4_Qiskit.ipynb]](#/NB_1/QC0_4_Qiskit.ipynb)
+5. [[QC0_5_QuTiP.ipynb]](#/NB_1/QC0_5_QuTiP.ipynb)
+6. [[QC0_6_PennyLane.ipynb]](#/NB_1/QC0_6_PennyLane.ipynb)
 
 
 
-II. Revise the canvas instructions.
+II. Revise the canvas instructions in the NB.
 
 
 # References<a name="references"></a>
