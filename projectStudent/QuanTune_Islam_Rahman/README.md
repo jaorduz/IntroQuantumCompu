@@ -1,22 +1,22 @@
 # Quantune: A quantum way to generate music
 
-As quantum computing has recently advanced rapidly, researchers are trying to take advantage of the principles and algorithms they can utilize in the music industry. 
-As a result, the computational approach to dynamic music creation has become an integral aspect of the music business. With the emerging need to establish a music 
-composition model, we developed a model using the Basak-Miranda algorithm, which we found the standard convention for generating music. Over the years, there has been 
-an enormous amount of study on music creation utilizing computer logic and simulation. Geoff Hill first produced a pitch identification tool for playback. Hiller et al. 
-developed a computer named ILLIAC, which can comprise a string quartet, considered the pioneered works of algorithmic music computation. In 2009, Bretan et al. provided 
-a deep neural network technique for tune automation which eventually generates music. The researchers recently shifted their interest to quantum simulation.
-Because in classical computers, the note, which is the unit of a tune, can be only one state at a time, whereas in quantum computing using superposition,
-a note can be at multiple states that speed up the simulation. Kirke et al. first experimented the sound and music by applying the quantum process, and Miranda later 
-generated using the musical sequencer. However, we found significantly less research in music generation using the quantum process.
+Researchers are attempting to make use of the ideas and algorithms that may be applied in the music business in order to benefit from the recent rapid advancements in quantum computing. 
+As a result, the computational method of creating dynamic music has been integrated into the music industry. The Basak-Miranda method, which we determined to be the accepted practice 
+for producing music, was used to construct a model in response to the rising need to establish a model for music composition. The use of computer logic and simulation in the development
+of music has been extensively studied throughout the years. The first pitch recognition tool for playback was created by Geoff Hill. The ILLIAC computer, created by Hiller et al., 
+can play a string quartet and is regarded as one of the first examples of algorithmic music computation. 
 
-In this project, we first created frequency of notes by initializing two notes and taking the superposition of these two. This has been done to just experiment with
-the generated quantum music. Then, we implemented the random walk algorithm to generate the frequencies of the notes and rythms. Finally we created the midi file from these
-frequencies.
+A deep neural network approach for tune automation that finally produces music was presented by Bretan et al. in 2009. The researchers' focus has recently switched to quantum simulation.
+Because a note, the fundamental building block of music, may only exist in one state in conventional computers, superposition in quantum computing allows a note to exist in numerous states, 
+accelerating simulation times. Miranda later produced utilizing a musical sequencer after Kirke et al. initially explored with sound and music using the quantum method. We discovered a 
+lot less study on the quantum method of creating music, though.
+
+In this project, we initially produced the frequency of the notes by superimposing the two notes. This was done only for experimental purposes with the created quantum music. 
+The frequency of the notes and rhythms were then generated using the random walk technique. Finally, using these frequencies, we produced the midi file.
 
 In the codebase folder, python implementation details have been provided for the above mentioned methods.
 
-We also created a websited to experience the generated music. http://qtune.thepixel.men/
+We also created a websited to experience the generated music. https://qtune.thepixel.men/
 
 We used qiskit library for the quantum circuit. In one of the methods, we used IBM quantum computer and for the other one, we used local simulator.
 
@@ -29,4 +29,3 @@ We used qiskit library for the quantum circuit. In one of the methods, we used I
 [3] Guide to Unconventional Computing for Music [Book](https://link.springer.com/book/10.1007/978-3-319-49881-2)
 
 [4] ArXiv [2110.12408](https://arxiv.org/abs/2110.12408)
-
