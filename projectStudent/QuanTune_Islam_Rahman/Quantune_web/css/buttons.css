@@ -1,0 +1,27 @@
+.play-button-outer {
+  margin: 25% auto;
+  width: 10em;
+  height: 10em;
+  background-color: rgba(0, 0, 0, .25);
+  cursor: pointer;
+}
+
+.play-button {
+margin: 0 auto;
+    top: 8%;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 1.5em 0 1.5em 3em;
+    border-color: transparent transparent transparent #ffc107;
+    opacity: 1;
+}
+
+.play-button-outer:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.play-button-outer:hover .play-button {
+  opacity: 1;
+}
