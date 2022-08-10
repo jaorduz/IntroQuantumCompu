@@ -184,47 +184,10 @@ https://templatemo.com/tm-560-astro-motion
             <div class="circle intro-circle-1"></div>
                  <div class="circle intro-circle-2"></div>
              <div>
-              <p align="justify">As quantum computing has recently advanced rapidly, researchers are trying to take advantage of the principles and algorithms they can utilize in the music industry. As a result, the computational approach to dynamic music creation has become an integral aspect of the music business. With the emerging need to establish a music composition model, we developed a model using the Basik-Miranda algorithm, which we found the standard convention for generating music.</p>
-              <h2>Algorithm Details</h2>
-              <p align="justify">
-                The random walk algorithm drove our initial focus on quantum computing. For each movement possibility from a graph vertex, the discrete version of this method employs several qubits incorporating classic random walk with Markov Chains. In addition, the series of twelve-tone notes are provided for music composition, which is then run by a quantum die for one-dimensional implementation of the quantum walk. For example, we can find the following playing note using the Markov chain probability distribution (See Table 1). If we get the calculated value of 0, then the simulation step chooses the left note otherwise picks the right one. Finally, we can implement the quantum die using a single qubit and a Hadamard gate. This algorithm works very well in a 1-D random walk. However, for complex rule implementation in sequence, this will not work. Therefore, we utilize the latest approach for the advanced quantum walk algorithm, the Basak-Miranda algorithm. This approach constructs a rule matrix for the target states using the Markov Chain representation for the sequence rule.
-              </p>
-              <div class="image123">
-                <div class="imgContainer" style="float: left;">
-                  <img src="img/table.png" style="margin-left: 50px; width: 600px; height: 350px;">
-                </div>
-                <div class="imgContainer" style="float: left;">
-                  <img src="img/matrix.png" style="margin-left: 150px; width: 500px; height: 350px;">
-                </div>
-              </div>
-              <br>
+              <p align="justify">In this project, the two notes were first superimposed to create the frequency of the notes. This was only done with the developed quantum music for experimental purposes. The random walk approach was then used to create the frequency of the notes and rhythms. Finally, we created the midi file utilizing these frequencies. The following quantum circuit was utilized to create music using the frequencies of notes and rhythms.
+			  Public project information and source code are accessible on <a href="https://github.com/agmislam1/IntroQuantumCompu/tree/qtune_islam_rahman/projectStudent/QuanTune_Islam_Rahman">github.</a>
+			  </p>
               
-              <h2></h2>
-              <p align="justify">For note C#, suppose we have two equilibrium probability states in the Markov chain implementation. Now, we develop a matrix &#x003F0; in equation 1. Now for the same scenario, it will proceed to Rule 3 in the matrix, which is the second row. We can extract the one corresponding to the targeted states represented using the qubits from the rule. Considering the pitch we have is C# we took earlier. The two qubits we get from here are |0〉<sub>2</sub> and |8〉<sub>2</sub> for the states E and B. From the matrix, if the simulation's next pitch taken is E, then the winner we got is |0〉<sub>4</sub>. We can quickly get the state using the histogram, and now from that E state, we will follow the same procedure to finish the input pitch simulation.</p>
-              
-              <h2></h2>
-              <h2>Implementation for Tune generation</h2>
-              <p align="justify">Our implementation implies a five-step procedure with proper justification of the algorithm discussed earlier.</p>
-              <p align="justify"><strong>Circuit Creation: </strong>In the first step, we undertake a separate method qwalk for the circuit creation. Inside that method, initially, we declare the qubits, classical bits, and quantum registers. We consider the five qubits and three classical bits. Using these, we utilize the Hadamard(h), Pauli X-gate(x), Controller-Not(cx), Controlled-Controlled-Not(ccx). We can observe we implemented a multi-qubit operation for our model from the gates. Our implemented circuit is depicted in the figure 5.
-              </p>
-              <p align="justify"><strong>Transpilation: </strong>The second step of our implementation is developing the transpilation method to reuse our input circuit for approximating the architectural configuration of a quantum device.
-              </p>
-              <p align="justify"><strong>Note Generation: </strong> In the third step, we generate the note by running our circuit 100 times. For every 25 iterations, we induce the histogram to observe the pitches the simulation selected. Below we can visualize the last 25th iteration for note generation.
-              </p>
-              <p align="justify"><strong>Rhythm Generation: </strong> The next step is the process of rhythm creation using the method we created earlier, we run the circuit 100 times to find out the rhythms, and for this operation, we generate the histogram with the corresponding probability for the state selection.
-              </p>
-              <p align="justify"><strong>Audio File Generation: </strong> Finally, we use the built-in python module MIDIUtil to create the audio file from the rhythms we got from the earlier step. The following action takes the pitch, duration, channel, and volume. Each iteration generates the note and adds the notes. Finally, generate the .wav audio file, which we can run.
-              </p>
-              <div class="image123">
-                <div class="imgContainer" style="float: left;">
-                  <img src="img/first254.png" style="margin-left: 50px; width: 500px; height: 400px;">
-                  <div class="caption" style="text-align:center; margin-top: 10px; margin-left: 30px;">Figure 3: Histogram for the last 25th Iteration of note generation</div>
-                </div>
-                <div class="imgContainer" style="float: left;">
-                  <img src="img/second4.png" style="margin-left: 150px; width: 500px; height: 400px;">
-                  <div class="caption" style="text-align:center; margin-left: 150px; margin-top: 10px">Figure 4: Histogram for the last 25th Iteration of rhythm generation</div>
-                </div>
-              </div>
 
               <div class="image123">
                 <div class="imgContainer">
