@@ -16,7 +16,7 @@ frequencies.
 
 In the codebase folder, python implementation details have been provided for the above mentioned methods.
 
-We also created a websited to experience the generated music. http://quantune.thepixel.men/
+We also created a websited to experience the generated music. http://qtune.thepixel.men/
 
 We used qiskit library for the quantum circuit. In one of the methods, we used IBM quantum computer and for the other one, we used local simulator.
 
